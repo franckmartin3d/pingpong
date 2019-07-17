@@ -81,7 +81,7 @@ class GameLogic{
         // ballReset();
     }
     win(ball1){
-        if (this.scorep1 >= 2){
+        if (this.scorep1 >= 6){
             ball1.xVelocity = 0;
             ball1.yVelocity = 0;
             ctx.font = '64px serif';
@@ -89,7 +89,7 @@ class GameLogic{
             ctx.fillText('Press Space to reset!', canvas2.width/2, 500);
             this.reset();
         }
-        else if (this.scorep2 >= 2){
+        else if (this.scorep2 >= 6){
             ball1.xVelocity = 0;
             ball1.yVelocity = 0;
             ctx.font = '64px serif';
