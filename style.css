@@ -1,13 +1,13 @@
 
 
 body{
-   background-color:#73D2DE;
+   background-color:#CBC5EA;
    font-family: 'Bangers', cursive;
    margin: 0;
 }
 h1{
    margin: 1px;
-   color:#218380;
+   color:#F0803C;
    font-size: 500%;
    text-align: center;
    -webkit-text-stroke-width: 1px;
@@ -17,7 +17,7 @@ h1{
 
 .hud-block{
    flex:1;
-   color:#D81159;
+   color:#F0803C;
    letter-spacing: 0.2em;
    float: left;
    width: 25%;
@@ -31,7 +31,7 @@ h1{
 
 .hud-blockM{
    flex:2;
-   color:#D81159;
+   color:#F0803C;
    letter-spacing: 0.2em;
    float: left;
    width: 25%;
